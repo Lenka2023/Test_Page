@@ -38,12 +38,19 @@ vertical-align: middle;
 left:50%;
 }
 .logo{
+
 height: 150px;
 width: 100%;
 text-align:  center;
 vertical-align: middle;
 
 background-color:#DCDCDC;
+}
+.lorem{
+	text-transform:uppercase;
+}
+span{
+	font-family:arial;
 }
 span.lorem:hover{
 	color:#008B8B;
@@ -55,9 +62,11 @@ float:left;
 height: 70px;
 width: 270px;
 text-align:  center;
+margin-right: 20px;
 vertical-align: middle;	
 }
 .col{
+text-align:  left;	
 float:left;
 height: 77px;
 width: 220px;
@@ -67,6 +76,8 @@ float:left;
 }
 #maincol{
 	float:left;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .textdown{
 	text-align:center;	
@@ -95,7 +106,8 @@ background-color:#F0F8FF;
 .buttons{
 	color:white;
 background-color:#808080;
-padding: 1%;		
+padding: 1%;
+font-size: 17px;		
 }				
 #button2{
 	
@@ -177,10 +189,20 @@ height: 40px;
 }
 .submit{
 	float:left;
-	padding-top: 55px;
 	padding-left: 20px;
 	height: 190px;
 	width: 300px;
+}
+.forms{
+margin-top: 55px;	
+}
+.tittle{
+vertical-align:text-top;
+	top:10px;	
+}
+#forms{
+	vertical-align:text-top;
+	top:10px;
 }
 input{
 
@@ -233,7 +255,7 @@ width: 165px;
 background-color:#2F4F4F;	
 }
 .three{
-	background-color:#F0F8FF;	
+	background-color:#DCDCDC;	
 margin-top: 20px;
 margin-bottom: : 20px;
 float:left;	
