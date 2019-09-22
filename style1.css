@@ -36,12 +36,10 @@ vertical-align: middle;
 left:50%;
 }
 .logo{
-
 height: 150px;
 width: 100%;
 text-align:  center;
 vertical-align: middle;
-
 background-color:#DCDCDC;
 }
 .lorem{
@@ -81,7 +79,6 @@ float:left;
 	text-align:center;	
 	}	
 .button2 {
-					
 	 display: inline; /* Отображать как строчный элемент */
      font-family:Clear Sans;
 	font-weight:bold;
@@ -108,9 +105,7 @@ padding: 1%;
 font-size: 16px;		
 }				
 #button2{
-	
 	width:100%;
-	
 	height: 55px;
 }
 body{
@@ -119,7 +114,7 @@ body{
 
 }
 .content{
-	height: 1000px;
+	height: 1030px;
 	width: 100%;
 	background-color:#DCDCDC;
 }
@@ -175,7 +170,6 @@ width: 280px;
 height: 30px;
 }
 .inp1{
-
 	float:right;
 	width: 90px;
 	height: 30px;
@@ -223,7 +217,7 @@ height: 120px;
 }
 .three{
 	background-color:#DCDCDC;	
-	margin-top: 20px;
+	padding-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
 	height: 300px;
@@ -250,7 +244,7 @@ float:left;
 	padding-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
-	height: 220px;
+	height: 320px;
 	width: 100%;
 }
 .blockf{
@@ -262,7 +256,17 @@ float:left;
 	width: 130px;
 	background-color:#696969;
 }
+.displnone {
+	 visibility: visible;
 }
+}
+
+
+
+
+
+
+
 /*ноутбуки*/
 @media (min-width: 768px) and (max-width: 999px) {
 	header{
@@ -302,12 +306,10 @@ vertical-align: middle;
 left:50%;
 }
 .logo{
-
 height: 150px;
 width: 100%;
 text-align:  center;
 vertical-align: middle;
-
 background-color:#DCDCDC;
 }
 .lorem{
@@ -347,7 +349,6 @@ float:left;
 	text-align:center;	
 	}	
 .button2 {
-					
 	 display: inline; /* Отображать как строчный элемент */
      font-family:Clear Sans;
 	font-weight:bold;
@@ -359,7 +360,6 @@ float:left;
 				}
 #menu{
 width:100%;
-	
 }
 button.buttons:hover{
 background-color:#F0F8FF;	
@@ -374,15 +374,13 @@ padding: 1%;
 font-size: 16px;		
 }				
 #button2{
-	
 	width:100%;
-	
 	height: 55px;
 }
 body{
 	min-height: 1230px;
 	max-width: 940px;
-
+background-color: green;
 }
 .content{
 	height: 1000px;
@@ -507,7 +505,6 @@ float:left;
 	background-color:#808080;
 }
 .blockw{
-	
 	height: 130px;
 	width: 260px;
 	background-color:white;
@@ -528,7 +525,18 @@ float:left;
 	width: 130px;
 	background-color:#696969;
 }
+.displnone {
+	  display: block;
 }
+}
+
+
+
+
+
+
+
+
 /*планшеты*/
 @media (min-width: 487px) and (max-width: 767px) {
 	header{
@@ -568,12 +576,10 @@ vertical-align: middle;
 left:50%;
 }
 .logo{
-
 height: 150px;
 width: 100%;
 text-align:  center;
 vertical-align: middle;
-
 background-color:#DCDCDC;
 }
 .lorem{
@@ -586,7 +592,6 @@ span.lorem:hover{
 	color:#008B8B;
 }
 .logotype{
-
 background-color:#808080;	
 float:left;
 height: 70px;
@@ -640,9 +645,7 @@ padding: 1%;
 font-size: 16px;		
 }				
 #button2{
-	
 	width:100%;
-	
 	height: 55px;
 }
 body{
@@ -651,14 +654,14 @@ body{
 background-color: yellow;
 }
 .content{
-	height: 1000px;
+	height: 370px;
 	width: 100%;
 	background-color:#DCDCDC;
 }
 
 footer{
 	padding-top: 30px;
-	height: 210px;
+	height: 310px;
 	width: 100%;
 	background-color:#808080;
 }
@@ -758,7 +761,7 @@ height: 120px;
 	margin-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
-	height: 300px;
+	height: 635px;
 	width: 100%;
 }
 .block{
@@ -782,7 +785,7 @@ float:left;
 	padding-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
-	height: 220px;
+	height: 320px;
 	width: 100%;
 }
 .blockf{
@@ -794,7 +797,18 @@ float:left;
 	width: 130px;
 	background-color:#696969;
 }
+.displnone {
+	  display: block;
 }
+}
+
+
+
+
+
+
+
+
 /*смартфоны*/
 @media (max-width: 480px) {
 	header{
@@ -924,7 +938,7 @@ background-color: red;
 
 footer{
 	padding-top: 30px;
-	height: 210px;
+	height: 550px;
 	width: 100%;
 	background-color:#808080;
 }
@@ -1062,6 +1076,11 @@ float:left;
 
 }
 .displnone {
-	display: none;
+	
+}
+a{
+	left:50%;
+	margin-left: 50%
+	text-align: center;
 }
 }
