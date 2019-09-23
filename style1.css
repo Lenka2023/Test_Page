@@ -30,8 +30,9 @@
 	color:white;
 }
 header{
-height: 150px;
+height: auto;
 width: 100%;
+background-color: #DCDCDC;
 }
 .leng{
 	float: right;
@@ -65,13 +66,7 @@ text-align:  center;
 vertical-align: middle;
 left:50%;
 }
-.logo{
-height: 150px;
-width: 100%;
-text-align:  center;
-vertical-align: middle;
-background-color:#DCDCDC;
-}
+
 .lorem{
 	text-transform:uppercase;
 }
@@ -94,7 +89,7 @@ vertical-align: middle;
 .col{
 text-align:  left;	
 float:left;
-height: 77px;
+height: auto;
 width: 220px;
 }
 .left{
@@ -104,6 +99,7 @@ float:left;
 	float:left;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	height: auto;
 }
 .textdown{
 	text-align:center;	
@@ -114,21 +110,25 @@ float:left;
 }
 
 body{
-	min-height: 1230px;
+	min-height: 1383px;
 	max-width: 940px;
+	position: relative;
+    background-color:#DCDCDC;
 
 }
 .content{
-	height: 1065px;
+	height: auto;
 	width: 100%;
 	background-color:#DCDCDC;
 }
 
 footer{
 	padding-top: 30px;
-	height: 210px;
+	height: auto;
 	width: 100%;
 	background-color:#808080;
+	position: absolute;
+  bottom: 0;
 }
 .fut{
 	float:left;
@@ -225,7 +225,7 @@ height: 120px;
 	padding-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
-	height: 300px;
+	height: auto;
 	width: 100%;
 }
 .block{
@@ -257,9 +257,10 @@ float:left;
 	padding-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
-	height: 325px;
+	height: 300px;
 	max-width: 940px;
 	align-items: flex-end;
+	background-color: #DCDCDC;
 
 }
 
@@ -326,8 +327,9 @@ div.blockf:before{
 	color:white;
 }
 	header{
-height: 150px;
+height: auto;
 width: 100%;
+background-color: #DCDCDC;
 }
 .leng{
 	float: right;
@@ -361,13 +363,7 @@ text-align:  center;
 vertical-align: middle;
 left:50%;
 }
-.logo{
-height: 150px;
-width: 100%;
-text-align:  center;
-vertical-align: middle;
-background-color:#DCDCDC;
-}
+
 .lorem{
 	text-transform:uppercase;
 }
@@ -390,7 +386,7 @@ vertical-align: middle;
 .col{
 text-align:  left;	
 float:left;
-height: 77px;
+height: auto;
 width: 220px;
 }
 .left{
@@ -400,6 +396,7 @@ float:left;
 	float:left;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	height: auto;
 }
 .textdown{
 	text-align:center;	
@@ -410,21 +407,25 @@ float:left;
 }
 
 body{
-	min-height: 1230px;
+	min-height: 1930px;
 	max-width: 940px;
-background-color: green;
+background-color:#DCDCDC;
+position: relative;
+
 }
 .content{
-	height: 1520px;
+	height: auto;
 	width: 100%;
 	background-color:#DCDCDC;
 }
 
 footer{
 	padding-top: 30px;
-	height: 300px;
+	height: auto;
 	width: 100%;
 	background-color:#808080;
+	position: absolute;
+  bottom: 0;
 }
 .fut{
 	float:left;
@@ -522,7 +523,7 @@ height: 120px;
 	margin-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
-	height: 630px;
+	height: auto;
 	width: 100%;
 }
 .block{
@@ -554,9 +555,10 @@ float:left;
 	padding-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
-	height: 325px;
+	height: 300px;
 	max-width: 940px;
 	align-items: flex-end;
+	background-color: #DCDCDC;
 }
 
 .blockf{
@@ -583,6 +585,8 @@ div.blockf:before{
 .rel{
 	vertical-align: bottom;
     margin-bottom: 16px;
+    z-index: 10;
+
 }
 
 }
@@ -659,8 +663,9 @@ div.blockf:before{
 	color:white;
 }
 	header{
-height: 150px;
+height: auto;
 width: 100%;
+background-color: #DCDCDC;
 }
 .leng{
 	float: right;
@@ -694,13 +699,7 @@ text-align:  center;
 vertical-align: middle;
 left:50%;
 }
-.logo{
-height: 150px;
-width: 100%;
-text-align:  center;
-vertical-align: middle;
-background-color:#DCDCDC;
-}
+
 .lorem{
 	text-transform:uppercase;
 }
@@ -722,7 +721,7 @@ vertical-align: middle;
 .col{
 text-align:  left;	
 float:left;
-height: 77px;
+height: auto;
 width: 220px;
 }
 .left{
@@ -732,6 +731,7 @@ float:left;
 	float:left;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	height: auto;
 }
 .textdown{
 	text-align:center;	
@@ -742,21 +742,25 @@ float:left;
 }
 
 body{
-	min-height: 1640px;
+	min-height: 2730px;
 	max-width: 767px;
-background-color: yellow;
+    background-color:#DCDCDC;
+    position: relative;
+
 }
 .content{
-	height: 1750px;
+	height: auto;
 	width: 100%;
 	background-color:#DCDCDC;
 }
 
 footer{
 	padding-top: 30px;
-	height: 310px;
+	height: auto;
 	width: 100%;
 	background-color:#808080;
+	position: absolute;
+  bottom: 0;
 }
 .fut{
 	float:left;
@@ -776,7 +780,7 @@ footer{
 .second{
 	margin-top: 20px;
 	margin-bottom: : 20px;
-	height: 585px;
+	height: 300px;
 	width: 100%;
 	background-color:#A0A0A0;	
 }
@@ -854,7 +858,7 @@ height: 120px;
 	margin-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
-	height: 635px;
+	height:auto;
 	width: 100%;
 }
 .block{
@@ -886,9 +890,10 @@ float:left;
 	padding-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
-	height: 410px;
+	height: 300px;
 	max-width: 767px;
 	align-items: flex-end;
+	background-color: #DCDCDC;
 }
 
 .blockf{
@@ -915,7 +920,7 @@ div.blockf:before{
 .rel{
 	vertical-align: bottom;
     margin-bottom: 16px;
-}
+    z-index: 10;
 
 }
 
@@ -991,8 +996,9 @@ div.blockf:before{
 	color:white;
 }
 	header{
-height: 340px;
+height: auto;
 width: 100%;
+background-color: #DCDCDC;
 }
 .leng{
 	float: right;
@@ -1026,15 +1032,7 @@ text-align:  center;
 vertical-align: middle;
 left:50%;
 }
-.logo{
 
-height: 150px;
-width: 100%;
-text-align:  center;
-vertical-align: middle;
-
-background-color:#DCDCDC;
-}
 .lorem{
 	text-transform:uppercase;
 }
@@ -1057,7 +1055,7 @@ vertical-align: middle;
 .col{
 text-align:  left;	
 float:left;
-height: 77px;
+height: auto;
 width: 100%;
 }
 .left{
@@ -1067,6 +1065,7 @@ float:left;
 	float:left;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	height: auto;
 }
 .textdown{
 	text-align:center;	
@@ -1077,21 +1076,25 @@ float:left;
 }
 
 body{
-	min-height: 2384px;
+	min-height: 2720px;
 	max-width: 450px;
-background-color: red; 
+    background-color:#DCDCDC;
+    position: relative;
+
 }
 .content{
-	height: 1910px;
+	height: auto;
 	width: 100%;
 	background-color:#DCDCDC;
 }
 
 footer{
 	padding-top: 30px;
-	height: 550px;
+	height: auto;
 	width: 100%;
 	background-color:#808080;
+	position: absolute;
+  bottom: 0;
 }
 .fut{
 	float:left;
@@ -1111,7 +1114,7 @@ footer{
 .second{
 	margin-top: 20px;
 	margin-bottom: : 20px;
-	height: 575px;
+	height: 300px;
 	width: 100%;
 	background-color:#A0A0A0;	
 }
@@ -1189,7 +1192,7 @@ height: 120px;
 	margin-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
-	height: 884px;
+	height: auto;
 	width: 100%;
 }
 .block{
@@ -1221,9 +1224,10 @@ float:left;
 	padding-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
-	height: 325px;
+	height: 300px;
 	max-width: 480px;
 	align-items: flex-end;
+	background-color: #DCDCDC;
 }
 
 .blockf{
@@ -1250,6 +1254,7 @@ div.blockf:before{
 .rel{
 	vertical-align: bottom;
     margin-bottom: 16px;
+    z-index: 10;
 }
 
 }
