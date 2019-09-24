@@ -147,6 +147,7 @@ footer{
 	background-color:#D3D3D3;	
 }
 .second{
+	padding-top: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding-bottom: : 20px;
@@ -370,9 +371,7 @@ text-align:  center;
 vertical-align: middle;
 background-color:#DCDCDC;
 }
-.lorem{
-	text-transform:uppercase;
-}
+
 span{
 	font-family:arial;
 }
@@ -445,6 +444,7 @@ footer{
 	background-color:#D3D3D3;	
 }
 .second{
+	padding-top: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding-bottom: : 20px;
@@ -779,6 +779,7 @@ footer{
 	background-color:#D3D3D3;	
 }
 .second{
+	padding-top: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding-bottom: : 20px;
@@ -1108,6 +1109,7 @@ footer{
 	background-color:#D3D3D3;	
 }
 .second{
+	padding-top: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding-bottom: : 20px;
@@ -1247,9 +1249,6 @@ div.blockf:before{
 	margin-bottom:10px;
 	left:50%;
 }
-.rel{
-	vertical-align: bottom;
-    margin-bottom: 16px;
-}
+
 
 }
