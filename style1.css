@@ -231,7 +231,7 @@ height: 120px;
 padding-right: 40px;
 margin-right: 40px;
 padding-left: : 20px;
-height: 300px;
+minheight: 330px;
 width: 220px;
 float:left;
 }
@@ -256,7 +256,7 @@ float:left;
 	padding-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
-	height: 325px;
+	height: 280px;
 	max-width: 940px;
 	align-items: flex-end;
 
