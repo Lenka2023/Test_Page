@@ -55,6 +55,12 @@ width: 100%;
 	width: 40px;
 	background-color:#696969;
 }
+.ari{
+font-family:arial;	
+}
+.rob{
+font-family:roboto;	
+}
 #logo{
 font-weight: 10px;
 font-weight: bolder;
@@ -65,19 +71,9 @@ text-align:  center;
 vertical-align: middle;
 left:50%;
 }
-.logo{
-height: 150px;
-width: 100%;
-text-align:  center;
-vertical-align: middle;
-background-color:#DCDCDC;
-}
-.lorem{
-	text-transform:uppercase;
-}
-span{
-	font-family:arial;
-}
+
+
+
 span.lorem:hover{
 	color:#008B8B;
 }
@@ -286,12 +282,9 @@ div.blockf:before{
 	 display: block;
 	margin-bottom:10px;
 	left:50%;
+	opacity:0;
 }
-.rel{
-	vertical-align: bottom;
-        opacity: 0;
-    margin-bottom: 16px;
-}
+
 }
 
 
@@ -354,6 +347,12 @@ width: 100%;
 	width: 40px;
 	background-color:#696969;
 }
+.ari{
+font-family:arial;	
+}
+.rob{
+font-family:roboto;	
+}
 #logo{
 font-weight: 10px;
 font-weight: bolder;
@@ -364,17 +363,9 @@ text-align:  center;
 vertical-align: middle;
 left:50%;
 }
-.logo{
-height: 150px;
-width: 100%;
-text-align:  center;
-vertical-align: middle;
-background-color:#DCDCDC;
-}
 
-span{
-	font-family:arial;
-}
+
+
 span.lorem:hover{
 	color:#008B8B;
 }
@@ -584,11 +575,6 @@ div.blockf:before{
 	margin-bottom:10px;
 	left:50%;
 }
-.rel{
-	vertical-align: bottom;
-    margin-bottom: 16px;
-}
-
 }
 
 
@@ -659,6 +645,12 @@ div.blockf:before{
   padding: 10px 0;
   width: 100%;
 }
+.ari{
+font-family:arial;	
+}
+.rob{
+font-family:roboto;	
+}
 .lia{
 	color:white;
 }
@@ -688,6 +680,12 @@ width: 100%;
 	width: 40px;
 	background-color:#696969;
 }
+.ari{
+font-family:arial;	
+}
+.rob{
+font-family:roboto;	
+}
 #logo{
 font-weight: 10px;
 font-weight: bolder;
@@ -698,19 +696,8 @@ text-align:  center;
 vertical-align: middle;
 left:50%;
 }
-.logo{
-height: 150px;
-width: 100%;
-text-align:  center;
-vertical-align: middle;
-background-color:#DCDCDC;
-}
-.lorem{
-	text-transform:uppercase;
-}
-span{
-	font-family:arial;
-}
+
+
 span.lorem:hover{
 	color:#008B8B;
 }
@@ -919,11 +906,6 @@ div.blockf:before{
 	margin-bottom:10px;
 	left:50%;
 }
-.rel{
-	vertical-align: bottom;
-    margin-bottom: 16px;
-}
-
 }
 
 
@@ -1023,6 +1005,12 @@ width: 100%;
 	width: 40px;
 	background-color:#696969;
 }
+.ari{
+font-family:arial;	
+}
+.rob{
+font-family:roboto;	
+}
 #logo{
 font-weight: 10px;
 font-weight: bolder;
@@ -1034,12 +1022,8 @@ vertical-align: middle;
 left:50%;
 }
 
-.lorem{
-	text-transform:uppercase;
-}
-span{
-	font-family:arial;
-}
+
+
 span.lorem:hover{
 	color:#008B8B;
 }
@@ -1244,6 +1228,7 @@ div.blockf:before{
 
 
 .link{
+	
 	position: absolute;
 	 display: block;
 	margin-bottom:10px;
