@@ -125,6 +125,7 @@ body{
 }
 
 footer{
+	margin-top:20px;
 	padding-top: 30px;
 	min-height: 210px;
 	width: 100%;
@@ -422,6 +423,7 @@ background-color: #DCDCDC;
 }
 
 footer{
+	margin-top:20px;
 	padding-top: 30px;
 	min-height: 300px;
 	width: 100%;
@@ -755,6 +757,7 @@ background-color: #DCDCDC;
 }
 
 footer{
+	margin-top:20px;
 	padding-top: 30px;
 	min-height: 310px;
 	width: 100%;
@@ -1083,6 +1086,7 @@ background-color: #DCDCDC;
 }
 
 footer{
+	margin-top:20px;
 	padding-top: 30px;
 	min-height: 550px;
 	width: 100%;
