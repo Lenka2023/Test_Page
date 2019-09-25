@@ -123,7 +123,7 @@ body{
 footer{
 	margin-top:20px;
 	padding-top: 30px;
-	min-height: 210px;
+	display:table;
 	width: 100%;
 	background-color:#808080;
 }
@@ -152,9 +152,10 @@ footer{
 	background-color:#A0A0A0;	
 }
 .submit{
+	display:table;
 	float:left;
 	padding-left: 20px;
-	height: 285px;
+	min-height: 285px;
 	width: 300px;
 }
 .forms{
@@ -250,9 +251,6 @@ float:left;
 	background-color:white;
 }
 .four{
-	 overflow: hidden;
-	 display: flex;
-     flex-wrap: wrap;
 	padding-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
@@ -275,14 +273,16 @@ float:left;
 div.blockf:before{
 	 position: absolute;
 }
+#hider {
+   position:absolute;
+    top: -9999px;
+    left: -9999px;
+}
 
-
-.link{
-	position: absolute;
-	 display: block;
-	margin-bottom:10px;
-	left:50%;
-	opacity:0;
+#clickme {
+	position:absolute;
+    top: -9999px;
+    left: -9999px;
 }
 
 }
@@ -415,7 +415,7 @@ background-color: #DCDCDC;
 footer{
 	margin-top:20px;
 	padding-top: 30px;
-	min-height: 300px;
+	display:table;
 	width: 100%;
 	background-color:#808080;
 }
@@ -444,6 +444,7 @@ footer{
 	background-color:#A0A0A0;	
 }
 .submit{
+	display:table;
 	float:left;
 	padding-left: 20px;
 	height: 285px;
@@ -543,9 +544,7 @@ float:left;
 	background-color:white;
 }
 .four{
-	 overflow: hidden;
-	 display: flex;
-     flex-wrap: wrap;
+	 
 	padding-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
@@ -568,12 +567,20 @@ div.blockf:before{
 	 position: absolute;
 }
 
+.hideshow {
+    
+   display: block;
+}
+#hider {
+   position:absolute;
+    top: -9999px;
+    left: -9999px;
+}
 
-.link{
-	position: absolute;
-	 display: block;
-	margin-bottom:10px;
-	left:50%;
+#clickme {
+	position:absolute;
+    top: -9999px;
+    left: -9999px;
 }
 }
 
@@ -746,7 +753,7 @@ background-color: #DCDCDC;
 footer{
 	margin-top:20px;
 	padding-top: 30px;
-	min-height: 310px;
+	display:table;
 	width: 100%;
 	background-color:#808080;
 }
@@ -775,6 +782,7 @@ footer{
 	background-color:#A0A0A0;	
 }
 .submit{
+	display:table;
 	float:left;
 	padding-left: 20px;
 	height: 285px;
@@ -824,6 +832,7 @@ height: 120px;
 	height: 120px;
 }
 .more{
+	v
 	float:right;
 	margin-top: 55px;
 	padding-right: 20px;
@@ -874,9 +883,7 @@ float:left;
 	background-color:white;
 }
 .four{
-	 overflow: hidden;
-	 display: flex;
-     flex-wrap: wrap;
+	 
 	padding-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
@@ -898,13 +905,23 @@ float:left;
 div.blockf:before{
 	 position: absolute;
 }
+#clickme {
+    opacity:0;
+   }
+.hideshow {
+    
+   display: block;
+}
+#hider {
+   position:absolute;
+    top: -9999px;
+    left: -9999px;
+}
 
-
-.link{
-	position: absolute;
-	 display: block;
-	margin-bottom:10px;
-	left:50%;
+#clickme {
+	position:absolute;
+    top: -9999px;
+    left: -9999px;
 }
 }
 
@@ -1073,7 +1090,7 @@ background-color: #DCDCDC;
 footer{
 	margin-top:20px;
 	padding-top: 30px;
-	min-height: 550px;
+	display:table;
 	width: 100%;
 	background-color:#808080;
 }
@@ -1102,6 +1119,7 @@ footer{
 	background-color:#A0A0A0;	
 }
 .submit{
+	display:table;
 	float:left;
 	padding-left: 20px;
 	height: 285px;
@@ -1201,9 +1219,7 @@ float:left;
 	background-color:white;
 }
 .four{
-	 overflow: hidden;
-	 display: flex;
-     flex-wrap: wrap;
+	 
 	padding-top: 20px;
 	margin-bottom: : 20px;
 	float:left;	
@@ -1225,15 +1241,30 @@ float:left;
 div.blockf:before{
 	 position: absolute;
 }
-
-
-.link{
-	
-	position: absolute;
-	 display: block;
-	margin-bottom:10px;
-	left:50%;
+#hider {
+   position:absolute;
+    top: -9999px;
+    left: -9999px;
 }
+#hider:checked + .hideshow {
+	
+	 display: block;
+    
+}
+#clickme {
+	bottom:-1350px;
+	position:absolute;
+	left:50%;
+    text-decoration: underline;
+	color: blue;
+    cursor: pointer;
+}
+
+.hideshow {
+    
+   display: none;
+}
+
 
 
 }
