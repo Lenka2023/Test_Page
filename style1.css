@@ -110,6 +110,8 @@ float:left;
 }
 
 body{
+	padding-left: 20px;
+    padding-right: 20px;
 	height: 100%;
 	max-width: 940px;
 	background-color:#DCDCDC;
@@ -185,46 +187,33 @@ margin-top: 55px;
 	vertical-align:text-top;
 	top:10px;
 }
-input{
-float:left;	
+
+
+#male{
 width: 280px;
 height: 30px;
+margin-bottom:15px;	
 }
-.inp1{
-	float:right;
-	width: 90px;
-	height: 30px;
-	}
 .inp{
-	margin-left: 5px;
+	
+	margin-bottom:15px;
+	margin-top:15px;
 	display: block;
 	float:left;
-	width: 90px;
+	width: 130px;
 	height: 30px;		
-}		
-.lab1{
-	display: inline;
-	margin-top: 20px;
-float:left;
-width: 95px;
-height: 120px;
 }
-.lab2{
-	display: inline;
-	margin-top: 20px;
-	float:right;
-	width: 95px;
-	height: 120px;
-}
+		
+
 
 .but{
 	color: white;
-	border-radius: 15%;
+	border-radius: 0px;
 	display: block;
 	margin: 0 auto;
 	height: 30px;
 	width: 165px;
-	background-color:#2F4F4F;	
+	background-color:#008080;	
 }
 .three{
 	background-color:#DCDCDC;	
@@ -405,9 +394,11 @@ float:left;
 }
 
 body{
+	padding-left: 20px;
+    padding-right: 20px;
 	height: 100%;
 	max-width: 940px;
-background-color: #DCDCDC;
+	background-color: #DCDCDC;
 }
 .content{
 	display:table;
@@ -746,9 +737,11 @@ float:left;
 }
 
 body{
+	padding-left: 20px;
+    padding-right: 20px;
 	height: 100%;
 	max-width: 767px;
-background-color: #DCDCDC;
+	background-color: #DCDCDC;
 }
 .content{
 	display:table;
@@ -1086,8 +1079,10 @@ float:left;
 }
 
 body{
+	padding-left: 20px;
+    padding-right: 20px;
 	height: 100%;
-	max-width: 450px;
+	min-width: 480px;
 background-color: #DCDCDC; 
 }
 .content{
@@ -1135,49 +1130,49 @@ footer{
 	padding-left: 20px;
 	width: 300px;
 }
+
+.tittle{
+	vertical-align:text-top;
+	top:10px;	
+}
 .forms{
-	
+float:left;	
+width: 280px;
+height: 165px;	
 }
 .tittle{
 	vertical-align:text-top;
 	top:10px;	
 }
 #forms{
+	width: 280px;
 	vertical-align:text-top;
 	top:10px;
 }
-input{
+.inpleft{
 float:left;	
-width: 280px;
-height: 30px;
 }
-.inp1{
-
-	float:right;
-	width: 90px;
-	height: 30px;
-	}
+#male{
+width: 280px;
+height: 30px;	
+}
 .inp{
-	margin-left: 5px;
+	margin-left: 20px;
+	margin-bottom:15px;
+	margin-top:15px;
 	display: block;
 	float:left;
-	width: 90px;
+	width: 130px;
 	height: 30px;		
-}		
-.lab1{
-	display: inline;
-	margin-top: 20px;
+}
+		
+.lab{
+	
 float:left;
-width: 95px;
-height: 120px;
+width: 280px;
+height: 165px
 }
-.lab2{
-	display: inline;
-	margin-top: 20px;
-	float:right;
-	width: 95px;
-	height: 120px;
-}
+
 .more{
 	float:right;
 	padding-right: 20px;
