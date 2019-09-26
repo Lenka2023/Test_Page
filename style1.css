@@ -218,23 +218,23 @@ margin-bottom:15px;
 .three{
 	background-color:#DCDCDC;	
 	padding-top: 20px;
-	margin-bottom: : 20px;
+	margin-bottom:  20px;
 	float:left;	
 	min-height: 300px;
 	width: 100%;
 }
 .block{
-padding-right: 40px;
+margin-top: 20px;
 margin-right: 40px;
-padding-left: : 20px;
-minheight: 330px;
-width: 220px;
+margin-bottom: 20px;
+min-height: 330px;
+width: 270px;
 float:left;
 }
 .blockt{
-	padding-right: 40px;
+	
 	height: 170px;
-	width: 240px;
+	width: 270px;
 	background-color:#808080;
 }
 .blockw{
@@ -242,7 +242,7 @@ float:left;
 	padding-left: 20px;
 	padding-right: 20px;
 	height: 130px;
-	width: 240px;
+	width: 270px;
 	background-color:white;
 }
 .four{
@@ -522,17 +522,17 @@ height: 120px;
 	width: 100%;
 }
 .block{
-padding-right: 40px;
+margin-top: 20px;
 margin-right: 40px;
-padding-left: : 20px;
-height: 300px;
-width: 220px;
+margin-bottom: 20px;
+min-height: 330px;
+width: 270px;
 float:left;
 }
 .blockt{
-	padding-right: 40px;
+	
 	height: 170px;
-	width: 240px;
+	width: 270px;
 	background-color:#808080;
 }
 .blockw{
@@ -540,7 +540,7 @@ float:left;
 	padding-left: 20px;
 	padding-right: 20px;
 	height: 130px;
-	width: 240px;
+	width: 270px;
 	background-color:white;
 }
 .four{
@@ -865,17 +865,17 @@ height: 120px;
 	width: 100%;
 }
 .block{
-padding-right: 40px;
+margin-top: 20px;
 margin-right: 40px;
-padding-left: : 20px;
-height: 300px;
-width: 220px;
+margin-bottom: 20px;
+min-height: 330px;
+width: 270px;
 float:left;
 }
 .blockt{
-	padding-right: 40px;
+	
 	height: 170px;
-	width: 240px;
+	width: 270px;
 	background-color:#808080;
 }
 .blockw{
@@ -883,7 +883,7 @@ float:left;
 	padding-left: 20px;
 	padding-right: 20px;
 	height: 130px;
-	width: 240px;
+	width: 270px;
 	background-color:white;
 }
 .four{
@@ -1208,17 +1208,17 @@ height: 165px
 	width: 100%;
 }
 .block{
-padding-right: 40px;
+margin-top: 20px;
 margin-right: 40px;
-padding-left: : 20px;
-height: 300px;
-width: 220px;
+margin-bottom: 20px;
+min-height: 330px;
+width: 270px;
 float:left;
 }
 .blockt{
-	padding-right: 40px;
+	
 	height: 170px;
-	width: 240px;
+	width: 270px;
 	background-color:#808080;
 }
 .blockw{
@@ -1226,7 +1226,7 @@ float:left;
 	padding-left: 20px;
 	padding-right: 20px;
 	height: 130px;
-	width: 240px;
+	width: 270px;
 	background-color:white;
 }
 .four{
