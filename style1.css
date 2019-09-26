@@ -61,6 +61,14 @@ font-family:arial;
 .rob{
 font-family:roboto;	
 }
+.robmore{
+font-family:roboto;	
+font-size:17px;	
+}
+.robthree{
+font-family:roboto;	
+font-size:16px;	
+}
 #logo{
 font-weight: 10px;
 font-weight: bolder;
@@ -110,8 +118,8 @@ float:left;
 }
 
 body{
-	padding-left: 20px;
-    padding-right: 20px;
+	margin-right:20px;
+	margin-left: 20px;
 	height: 100%;
 	max-width: 940px;
 	background-color:#DCDCDC;
@@ -172,7 +180,7 @@ footer{
 .inner{
 	float:right;
 	display: table-cell;
-	width:300px;
+	width:440px;
 	padding-top: 20px;
 	vertical-align:middle;
 }
@@ -183,32 +191,48 @@ margin-top: 55px;
 	vertical-align:text-top;
 	top:10px;	
 }
+
 #forms{
 	vertical-align:text-top;
 	top:10px;
 }
-
-
 #male{
+float:left;	
 width: 280px;
 height: 30px;
-margin-bottom:15px;	
 }
-.inp{
-	
-	margin-bottom:15px;
-	margin-top:15px;
+.inpb{
+	float:right;
+	width: 130px;
+	height: 30px;
+	}
+.inpa{
+	padding-left: 5px;
 	display: block;
 	float:left;
 	width: 130px;
 	height: 30px;		
+}		
+.laba{
+	
+	margin-top: 20px;
+float:left;
+width: 130px;
+height: 120px;
 }
-		
-
-
+.labb{
+	
+	margin-top: 20px;
+	float:right;
+	width: 130px;
+	height: 120px;
+}
+.labc{
+	width:280px
+}
 .but{
 	color: white;
-	border-radius: 0px;
+	border-radius: 5px;
 	display: block;
 	margin: 0 auto;
 	height: 30px;
@@ -218,31 +242,35 @@ margin-bottom:15px;
 .three{
 	background-color:#DCDCDC;	
 	padding-top: 20px;
-	margin-bottom:  20px;
+	margin-bottom: : 20px;
 	float:left;	
 	min-height: 300px;
 	width: 100%;
 }
 .block{
-margin-top: 20px;
-margin-right: 40px;
-margin-bottom: 20px;
-min-height: 330px;
+padding-right: 20px;
+margin-right: 20px;
+padding-left: : 20px;
+minheight: 330px;
 width: 270px;
 float:left;
 }
+.blockm{
+	margin-bottom:20px;
+	margin-top:20px;
+}
 .blockt{
-	
+	padding-right: 40px;
 	height: 170px;
-	width: 270px;
+	width: 240px;
 	background-color:#808080;
 }
 .blockw{
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
-	height: 130px;
-	width: 270px;
+	height: 100px;
+	width: 240px;
 	background-color:white;
 }
 .four{
@@ -345,6 +373,14 @@ font-family:arial;
 .rob{
 font-family:roboto;	
 }
+.robmore{
+font-family:roboto;	
+font-size:17px;	
+}
+.robthree{
+font-family:roboto;	
+font-size:16px;	
+}
 #logo{
 font-weight: 10px;
 font-weight: bolder;
@@ -394,11 +430,11 @@ float:left;
 }
 
 body{
-	padding-left: 20px;
-    padding-right: 20px;
+	margin-right:20px;
+	margin-left: 20px;
 	height: 100%;
 	max-width: 940px;
-	background-color: #DCDCDC;
+background-color: #DCDCDC;
 }
 .content{
 	display:table;
@@ -444,6 +480,7 @@ footer{
 	padding-left: 20px;
 	width: 300px;
 }
+
 .forms{
 margin-top: 55px;	
 }
@@ -455,37 +492,48 @@ margin-top: 55px;
 	vertical-align:text-top;
 	top:10px;
 }
-input{
+#male{
 float:left;	
 width: 280px;
 height: 30px;
 }
-.inp1{
-
+.inpb{
 	float:right;
-	width: 90px;
+	width: 130px;
 	height: 30px;
 	}
-.inp{
-	margin-left: 5px;
+.inpa{
+	padding-left: 5px;
 	display: block;
 	float:left;
-	width: 90px;
+	width: 130px;
 	height: 30px;		
 }		
-.lab1{
-	display: inline;
+.laba{
+	
 	margin-top: 20px;
 float:left;
-width: 95px;
+width: 130px;
 height: 120px;
 }
-.lab2{
-	display: inline;
+.labb{
+	
 	margin-top: 20px;
 	float:right;
-	width: 95px;
+	width: 130px;
 	height: 120px;
+}
+.labc{
+	width:280px
+}
+.but{
+	color: white;
+	border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+	height: 30px;
+	width: 165px;
+	background-color:#008080;	
 }
 .more{
 	float:right;
@@ -500,19 +548,11 @@ height: 120px;
 .inner{
 	float:right;
 	display: table-cell;
-	width:300px;
+	width:440px;
 	padding-top: 20px;
 	vertical-align:middle;
 }
-.but{
-	color: white;
-	border-radius: 15%;
-	display: block;
-	margin: 0 auto;
-	height: 30px;
-	width: 165px;
-	background-color:#2F4F4F;	
-}
+
 .three{
 	background-color:#DCDCDC;	
 	margin-top: 20px;
@@ -521,26 +561,27 @@ height: 120px;
 	min-height: 630px;
 	width: 100%;
 }
+
 .block{
-margin-top: 20px;
-margin-right: 40px;
-margin-bottom: 20px;
-min-height: 330px;
-width: 270px;
+padding-right: 20px;
+margin-right: 20px;
+padding-left: : 20px;
+height: 270px;
+width: 220px;
 float:left;
 }
 .blockt{
-	
+	padding-right: 40px;
 	height: 170px;
-	width: 270px;
+	width: 240px;
 	background-color:#808080;
 }
 .blockw{
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
-	height: 130px;
-	width: 270px;
+	height: 100px;
+	width: 240px;
 	background-color:white;
 }
 .four{
@@ -655,6 +696,14 @@ font-family:arial;
 .rob{
 font-family:roboto;	
 }
+.robmore{
+font-family:roboto;	
+font-size:17px;	
+}
+.robthree{
+font-family:roboto;	
+font-size:16px;	
+}
 .lia{
 	color:white;
 }
@@ -737,11 +786,11 @@ float:left;
 }
 
 body{
-	padding-left: 20px;
-    padding-right: 20px;
+	margin-right:20px;
+	margin-left: 20px;
 	height: 100%;
 	max-width: 767px;
-	background-color: #DCDCDC;
+background-color: #DCDCDC;
 }
 .content{
 	display:table;
@@ -798,37 +847,49 @@ margin-top: 55px;
 	vertical-align:text-top;
 	top:10px;
 }
-input{
+
+#male{
 float:left;	
 width: 280px;
 height: 30px;
 }
-.inp1{
-
+.inpb{
 	float:right;
-	width: 90px;
+	width: 130px;
 	height: 30px;
 	}
-.inp{
-	margin-left: 5px;
+.inpa{
+	padding-left: 5px;
 	display: block;
 	float:left;
-	width: 90px;
+	width: 130px;
 	height: 30px;		
 }		
-.lab1{
-	display: inline;
+.laba{
+	
 	margin-top: 20px;
 float:left;
-width: 95px;
+width: 130px;
 height: 120px;
 }
-.lab2{
-	display: inline;
+.labb{
+	
 	margin-top: 20px;
 	float:right;
-	width: 95px;
+	width: 130px;
 	height: 120px;
+}
+.labc{
+	width:280px
+}
+.but{
+	color: white;
+	border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+	height: 30px;
+	width: 165px;
+	background-color:#008080;	
 }
 .more{
 	float:right;
@@ -843,19 +904,11 @@ height: 120px;
 .inner{
 	float:right;
 	display: table-cell;
-	width:300px;
+	width:440px;
 	padding-top: 20px;
 	vertical-align:middle;
 }
-.but{
-	color: white;
-	border-radius: 15%;
-	display: block;
-	margin: 0 auto;
-	height: 30px;
-	width: 165px;
-	background-color:#2F4F4F;	
-}
+
 .three{
 	background-color:#DCDCDC;	
 	margin-top: 20px;
@@ -864,26 +917,27 @@ height: 120px;
 	min-height: 635px;
 	width: 100%;
 }
+
 .block{
-margin-top: 20px;
-margin-right: 40px;
-margin-bottom: 20px;
-min-height: 330px;
-width: 270px;
+padding-right: 20px;
+margin-right: 20px;
+padding-left: 20px;
+height: 270px;
+width: 220px;
 float:left;
 }
 .blockt{
-	
+	padding-right: 40px;
 	height: 170px;
-	width: 270px;
+	width: 240px;
 	background-color:#808080;
 }
 .blockw{
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
-	height: 130px;
-	width: 270px;
+	height: 100px;
+	width: 240px;
 	background-color:white;
 }
 .four{
@@ -907,9 +961,7 @@ float:left;
 div.blockf:before{
 	 position: absolute;
 }
-#clickme {
-    opacity:0;
-   }
+
 .hideshow {
     
    display: block;
@@ -1030,6 +1082,14 @@ font-family:arial;
 .rob{
 font-family:roboto;	
 }
+.robmore{
+font-family:roboto;	
+font-size:17px;	
+}
+.robthree{
+font-family:roboto;	
+font-size:16px;	
+}
 #logo{
 font-weight: 10px;
 font-weight: bolder;
@@ -1079,10 +1139,10 @@ float:left;
 }
 
 body{
-	padding-left: 20px;
-    padding-right: 20px;
+	margin-right:20px;
+	margin-left: 20px;
 	height: 100%;
-	min-width: 480px;
+	max-width: 450px;
 background-color: #DCDCDC; 
 }
 .content{
@@ -1130,49 +1190,60 @@ footer{
 	padding-left: 20px;
 	width: 300px;
 }
-
-.tittle{
-	vertical-align:text-top;
-	top:10px;	
-}
 .forms{
-float:left;	
-width: 280px;
-height: 165px;	
+margin-top: 55px;	
 }
 .tittle{
 	vertical-align:text-top;
 	top:10px;	
 }
 #forms{
-	width: 280px;
 	vertical-align:text-top;
 	top:10px;
 }
-.inpleft{
-float:left;	
-}
 #male{
+float:left;	
 width: 280px;
-height: 30px;	
+height: 30px;
 }
-.inp{
-	margin-left: 20px;
-	margin-bottom:15px;
-	margin-top:15px;
+.inpb{
+	float:right;
+	width: 130px;
+	height: 30px;
+	}
+.inpa{
+	padding-left: 5px;
 	display: block;
 	float:left;
 	width: 130px;
 	height: 30px;		
-}
-		
-.lab{
+}		
+.laba{
 	
+	margin-top: 20px;
 float:left;
-width: 280px;
-height: 165px
+width: 130px;
+height: 120px;
 }
-
+.labb{
+	
+	margin-top: 20px;
+	float:right;
+	width: 130px;
+	height: 120px;
+}
+.labc{
+	width:280px
+}
+.but{
+	color: white;
+	border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+	height: 30px;
+	width: 165px;
+	background-color:#008080;	
+}
 .more{
 	float:right;
 	padding-right: 20px;
@@ -1186,19 +1257,11 @@ height: 165px
 .inner{
 	float:right;
 	display: table-cell;
-	width:300px;
+	width:440px;
 	vertical-align:middle;
 	padding-top: 20px;
 }
-.but{
-	color: white;
-	border-radius: 15%;
-	display: block;
-	margin: 0 auto;
-	height: 30px;
-	width: 165px;
-	background-color:#2F4F4F;	
-}
+
 .three{
 	background-color:#DCDCDC;	
 	margin-top: 20px;
@@ -1207,26 +1270,27 @@ height: 165px
 	min-height: 884px;
 	width: 100%;
 }
+
 .block{
-margin-top: 20px;
-margin-right: 40px;
-margin-bottom: 20px;
-min-height: 330px;
-width: 270px;
+padding-right: 20px;
+margin-right: 20px;
+padding-left: : 20px;
+height: 270px;
+width: 220px;
 float:left;
 }
 .blockt{
-	
+	padding-right: 40px;
 	height: 170px;
-	width: 270px;
+	width: 240px;
 	background-color:#808080;
 }
 .blockw{
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
-	height: 130px;
-	width: 270px;
+	height: 100px;
+	width: 240px;
 	background-color:white;
 }
 .four{
@@ -1260,7 +1324,7 @@ div.blockf:before{
     
 }
 #clickme {
-	bottom:-1226px;
+	bottom:-1273px;
 	position:absolute;
 	left:50%;
     text-decoration: underline;
