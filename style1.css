@@ -215,7 +215,7 @@ footer{
 	background-color:#A0A0A0;	
 }
 .submit{
-	
+	display:block;
 	float:left;
 	padding-left: 20px;
 	width: 300px;
@@ -582,7 +582,7 @@ footer{
 	background-color:#A0A0A0;	
 }
 .submit{
-	
+	display:block;
 	float:left;
 	padding-left: 20px;
 	width: 300px;
@@ -1009,7 +1009,8 @@ footer{
 	background-color:#A0A0A0;	
 }
 .submit{
-	
+	float:left;
+	display:block;
 	padding-left: 20px;
 	width: 300px;
 }
@@ -1415,7 +1416,7 @@ footer{
 	background-color:#A0A0A0;	
 }
 .submit{
-	float:right;
+	display:block;
 	float:left;
 	padding-left: 20px;
 	width: 300px;
@@ -1485,7 +1486,7 @@ height: 120px;
 	width: 300px;
 }
 .inner{
-	float:right;
+	float:left;
 	display: table-cell;
 	width:440px;
 	vertical-align:middle;
