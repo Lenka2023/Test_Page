@@ -215,7 +215,7 @@ footer{
 	background-color:#A0A0A0;	
 }
 .submit{
-	display:table;
+	
 	float:left;
 	padding-left: 20px;
 	width: 300px;
@@ -303,6 +303,7 @@ height: 120px;
 .block{
 padding-right: 20px;
 margin-right: 20px;
+margin-top:40px;
 padding-left: : 20px;
 minheight: 330px;
 width: 270px;
@@ -581,7 +582,7 @@ footer{
 	background-color:#A0A0A0;	
 }
 .submit{
-	display:table;
+	
 	float:left;
 	padding-left: 20px;
 	width: 300px;
@@ -670,7 +671,8 @@ height: 120px;
 
 .block{
 padding-right: 20px;
-margin-right: 20px;
+margin-right: 60px;
+margin-top:40px;
 padding-left: : 20px;
 height: 270px;
 width: 220px;
@@ -997,7 +999,7 @@ footer{
 	background-color:#D3D3D3;	
 }
 .second{
-	float:right;
+	
 	padding-top: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -1007,8 +1009,7 @@ footer{
 	background-color:#A0A0A0;	
 }
 .submit{
-	display:table;
-	float:left;
+	
 	padding-left: 20px;
 	width: 300px;
 }
@@ -1078,7 +1079,7 @@ height: 120px;
 	width: 300px;
 }
 .inner{
-	float:right;
+	
 	display: table-cell;
 	width:440px;
 	padding-top: 20px;
@@ -1095,8 +1096,9 @@ height: 120px;
 }
 
 .block{
+margin-top:40px;
 padding-right: 20px;
-margin-right: 20px;
+margin-right: 60px;
 padding-left: 20px;
 height: 270px;
 width: 220px;
@@ -1414,7 +1416,6 @@ footer{
 }
 .submit{
 	float:right;
-	display:table;
 	float:left;
 	padding-left: 20px;
 	width: 300px;
@@ -1501,6 +1502,7 @@ height: 120px;
 }
 
 .block{
+margin-top:40px;
 padding-right: 20px;
 margin-right: 20px;
 padding-left: : 20px;
@@ -1509,6 +1511,7 @@ width: 220px;
 float:left;
 }
 .blockt{
+	margin-top:40px;
 	padding-right: 40px;
 	height: 170px;
 	width: 240px;
