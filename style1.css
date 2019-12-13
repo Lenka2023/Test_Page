@@ -738,7 +738,7 @@ div.blockf:before{
 
 
 /*планшеты*/
-@media (min-width: 487px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px) {
 	.ad-menu li {
     width: 100%;
 }
